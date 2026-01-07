@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - YouTube Study Note</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #1a1a1a;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            color: #1a1a1a;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+
+        a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>プライバシーポリシー</h1>
+        <p class="subtitle">最終更新日: 2026年1月7日</p>
+
+        <div class="highlight">
+            <p><strong>重要:</strong> YouTube Study Noteは、ユーザーのプライバシーを最優先に考えています。すべてのデータはローカルに保存され、外部サーバーへの送信は一切行いません。</p>
+        </div>
+
+        <h2>1. データの収集</h2>
+        <p>YouTube Study Noteは、以下のデータを収集しません：</p>
+        <ul>
+            <li>個人情報（氏名、メールアドレス、住所など）</li>
+            <li>閲覧履歴</li>
+            <li>位置情報</li>
+            <li>その他の個人を特定できる情報</li>
+        </ul>
+
+        <h2>2. データの保存</h2>
+        <h3>2.1 ローカルストレージ</h3>
+        <p>すべてのデータは、ユーザーのブラウザ内（chrome.storage.local）に保存されます。保存されるデータは以下の通りです：</p>
+        <ul>
+            <li>YouTube動画のタイトルとURL</li>
+            <li>ユーザーが作成したメモとタイムスタンプ</li>
+            <li>Pro版のライセンスキー（有効化した場合）</li>
+            <li>Notion連携の設定（Integration Token、Database ID）</li>
+        </ul>
+
+        <h3>2.2 データの管理</h3>
+        <p>保存されたデータは、ユーザー自身で管理できます：</p>
+        <ul>
+            <li>メモの編集・削除</li>
+            <li>動画の削除</li>
+            <li>拡張機能のアンインストールによる全データの削除</li>
+        </ul>
+
+        <h2>3. 外部サービスとの連携</h2>
+        <h3>3.1 Notion API連携（Pro版のみ）</h3>
+        <p>Pro版のNotion連携機能を使用する場合、以下の通信が行われます：</p>
+        <ul>
+            <li>ユーザーが入力したIntegration Tokenを使用して、Notion APIと通信します</li>
+            <li>通信はユーザーの操作（「Notionへ送信」ボタンのクリック）によってのみ行われます</li>
+            <li>送信されるデータ: 動画タイトル、URL、メモの内容</li>
+            <li>Integration Tokenはローカルに保存され、外部サーバーには送信されません</li>
+        </ul>
+
+        <h3>3.2 YouTube</h3>
+        <p>この拡張機能は、YouTubeページから以下の情報を取得します：</p>
+        <ul>
+            <li>動画のタイトル</li>
+            <li>動画のURL</li>
+            <li>再生時間</li>
+        </ul>
+        <p>これらの情報は、メモ機能を提供するためにのみ使用され、外部サーバーには送信されません。</p>
+
+        <h2>4. データの共有</h2>
+        <p>YouTube Study Noteは、ユーザーのデータを第三者と共有することは一切ありません。</p>
+
+        <h2>5. セキュリティ</h2>
+        <p>すべてのデータはユーザーのブラウザ内に保存されるため、Chrome拡張機能のセキュリティ機能によって保護されています。</p>
+
+        <h2>6. 子供のプライバシー</h2>
+        <p>この拡張機能は、13歳未満の子供を対象としていません。13歳未満の子供から意図的に個人情報を収集することはありません。</p>
+
+        <h2>7. プライバシーポリシーの変更</h2>
+        <p>このプライバシーポリシーは、必要に応じて更新される場合があります。変更があった場合は、このページで通知します。</p>
+
+        <h2>8. お問い合わせ</h2>
+        <p>このプライバシーポリシーに関するご質問やご不明な点がございましたら、以下までお問い合わせください：</p>
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+
+        <div class="footer">
+            <p>&copy; 2026 YouTube Study Note. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
